@@ -1,0 +1,20 @@
+.main {
+    display:flex;
+    min-height: 500px;
+}
+
+.dish-section {
+    flex: 1;
+    padding: 30px;
+}
+
+.dish-section h2 {
+    margin-top: 0;
+    color: #6D071A;
+}
+
+.dish-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
