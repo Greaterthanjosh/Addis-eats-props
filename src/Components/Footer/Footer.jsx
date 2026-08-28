@@ -1,11 +1,11 @@
-import './Footer.css'
+import "./Footer.css";
 
 function Footer() {
-    return (
-      <footer className="footer">
-        <p>© 2026 Addis Eats. All rights reserved.</p>
-      </footer>  
-    )
+  return (
+    <footer className="footer">
+      <p>© 2026 Addis Eats. All rights reserved.</p>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
