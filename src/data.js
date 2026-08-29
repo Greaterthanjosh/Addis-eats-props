@@ -20,7 +20,7 @@ const dishes = [
     description: "Tender pieces of sautéed beef with onions and peppers",
     image: tibsImage,
     category: "Main",
-    spicy: true,
+    spicy: false,
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const dishes = [
     description: "Seasoned minced beef served with traditional Ethiopian sides",
     image: kitfoImage,
     category: "Main",
-    spicy: false,
+    spicy: true,
   },
 ];
 

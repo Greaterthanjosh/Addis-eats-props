@@ -12,7 +12,7 @@ function Main() {
       <section className="dish-section">
         <h2>Menu</h2>
 
-        <Menu dishes={dishes} category="Main" />
+        <Menu dishes={dishes} />
       </section>
     </main>
   );

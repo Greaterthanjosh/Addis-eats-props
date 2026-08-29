@@ -8,7 +8,7 @@ function Dish({ name, price, description, image, spicy, currency = "ETB" }) {
 
       <h3>{name}</h3>
 
-      {spicy && <span className="spicy-badge">Spicy</span>}
+      {spicy && <span className="spicy-badge">🌶️ Spicy</span>}
 
       <p className="description">{description}</p>
 
@@ -20,12 +20,12 @@ function Dish({ name, price, description, image, spicy, currency = "ETB" }) {
 }
 
 Dish.PropTypes = {
-  nmae: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
   description: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   spicy: PropTypes.bool,
-  currrency: PropTypes.string,
+  currency: PropTypes.string,
 };
 
 export default Dish;
